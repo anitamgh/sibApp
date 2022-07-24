@@ -1,0 +1,55 @@
+#header{
+    border-bottom:solid 1px $whitee0;
+    padding:10px 0 15px 0;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    .flexbox{
+        .logo-and-menu{
+            margin-right: 30px;
+            column-gap:20px;
+            .logo{
+                width:115px;
+                height:auto;
+            }
+            .menu{
+                column-gap:10px;
+                li{
+                    a{
+                        font-size:13px;
+                        font-weight:500;
+                        color:$gray34;
+                        padding:5px 13px 7px 13px;
+                        background-color:$whiteec;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10%);
+                        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10%);
+                        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10%);
+                        -ms-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10%);
+                        border-radius:10px;
+                        -moz-border-radius:10px;
+                        -webkit-border-radius:10px;
+                        -ms-border-radius:10px;
+                    }
+                }
+            }
+        }
+        .search-and-install{
+            column-gap:20px;
+            .search-icon{
+                width:25px;
+                height:auto;
+            }
+            .install-button{
+                background-color:$blue15;
+                font-size:14px;
+                border:none;
+                padding:5px 30px 7px 30px;
+                color:$whiteff;
+                border-radius:20px;
+                box-shadow: 0 4px 8px 0 rgba(48, 143, 255, 50%);
+
+            }
+        }
+    }
+}
