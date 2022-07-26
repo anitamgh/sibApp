@@ -113,6 +113,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 2;
 }
 #header .flexbox .logo-and-menu {
   margin-right: 30px;
@@ -179,4 +180,42 @@ body {
 #bar-slider .update-bar .bar span {
   color: #1A73B1;
   font-weight: 600;
+}
+#bar-slider .slider .container.flexbox {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  position: relative;
+  overflow-x: scroll;
+}
+#bar-slider .slider .container.flexbox .pre-next img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 64px;
+  height: auto;
+}
+#bar-slider .slider .container.flexbox .pre-next .pre {
+  right: 0;
+}
+#bar-slider .slider .container.flexbox .pre-next .next {
+  left: 0;
+}
+#bar-slider .slider .container.flexbox .col {
+  width: 50%;
+  border-bottom: solid 1px #E0E0E0;
+  margin-bottom: 20px;
+}
+#bar-slider .slider .container.flexbox .col img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+#bar-slider .slider .container.flexbox .col h1 {
+  color: #4A4A4A;
+  font-size: 20px;
+  margin: 5px 0;
+}
+#bar-slider .slider .container.flexbox .col p {
+  color: #9B9B9B;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */

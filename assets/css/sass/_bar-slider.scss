@@ -17,4 +17,45 @@
             }
         }
     }
+    .slider{
+        .container.flexbox{
+            column-gap:20px;
+            position:relative;
+            overflow-x: scroll;
+            .pre-next{
+                img{
+                    position:absolute;
+                    top:50%;
+                    transform:translateY(-50%);
+                    width:64px;
+                    height:auto;
+                }
+                .pre{
+                    right:0;
+                }
+                .next{
+                    left:0;
+                }
+            }
+            .col{
+                width:50%;
+                border-bottom:solid 1px $whitee0;
+                margin-bottom:20px;
+                img{
+                    width:100%;
+                    height:auto;
+                    border-radius:15px;
+                }
+                h1{
+                    color:$gray4a;
+                    font-size:20px;
+                    margin:5px 0;
+                }
+                p{
+                    color:$gray9b;
+                    font-size:13px;
+                }
+            }
+        }
+    }
 }
