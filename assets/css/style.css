@@ -82,7 +82,7 @@ ul {
   font-display: swap;
 }
 html {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 body {
@@ -109,6 +109,7 @@ body {
   border-bottom: solid 1px #E0E0E0;
   padding: 10px 0 15px 0;
   position: fixed;
+  background-color: #fff;
   top: 0;
   left: 0;
   width: 100%;
@@ -157,4 +158,25 @@ body {
   color: #fff;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(48, 143, 255, 0.5);
+}
+
+#bar-slider {
+  background-color: #F7F7F7;
+  padding-top: 60px;
+}
+#bar-slider .update-bar {
+  text-align: center;
+}
+#bar-slider .update-bar .bar {
+  background-color: #E8F2F9;
+  margin: 20px 30px;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  padding: 10px 0;
+  color: #4A4A4A;
+  font-weight: 200;
+}
+#bar-slider .update-bar .bar span {
+  color: #1A73B1;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

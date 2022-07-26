@@ -1,0 +1,20 @@
+#bar-slider{
+    background-color:$whitef7;
+    padding-top:60px;
+    .update-bar{
+        text-align:center;
+        .bar{
+            background-color: $whitee8;
+            margin:20px 30px;
+            border-radius:10px;
+            font-size:1.6rem;
+            padding:10px 0;
+            color:$gray4a;
+            font-weight:200;
+            span{
+                color:$blue1a;
+                font-weight:600;
+            }
+        }
+    }
+}
