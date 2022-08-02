@@ -1,0 +1,77 @@
+#app-category{
+    background-color:$whitef7;
+    .container{
+        overflow-x: scroll;
+        padding:40px 0 20px 0;
+        position:relative;
+        .pre-next{
+            img{
+                position:absolute;
+                top:50%;
+                transform:translateY(-50%);
+                width:64px;
+                height:auto;
+            }
+            .pre{
+                right:0;
+            }
+            .next{
+                left:0;
+            }
+        }
+        .title{
+            h1{
+                font-size:2rem;
+                color:$gray33;
+                font-weight: 200;
+            }
+            p{
+                a{
+                    font-size:1.3rem;
+                    color:$blue30;
+                }
+            }
+        }
+        ul{
+            flex-wrap:wrap;
+            li{
+                border-bottom: 0.75px solid $whitee0;
+                width:33%;
+                padding:20px 15px 10px 15px;
+                .info{
+                    gap:15px;
+                    img{
+                        width:80px;
+                        height:auto;
+                        box-shadow:0 0px 5px 0 rgba(0, 0, 0, 10%);
+                        border:0.75px solid $whitee0;
+                        border-radius:15px;
+                    }
+                    .content{
+                        h3{
+                            color:$gray4a;
+                            font-size:17px;
+                            font-weight:400;
+                            margin-bottom:0;
+                            // min-height:55px;
+                        }
+                        p{
+                            color:$gray9b; 
+                            font-size:12px;
+                            margin:5px 0 0 0;
+                        }
+                    }
+                }
+                .get{
+                    p{
+                        color:$whiteff;
+                        background-color: $blue15;
+                        padding:5px 25px;
+                        border-radius: 15px;
+                        font-size:13px;
+                    }
+                }
+            }
+        }
+}
+}
