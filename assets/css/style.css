@@ -116,7 +116,6 @@ body {
   z-index: 4;
 }
 #header .flexbox .logo-and-menu {
-  margin-right: 30px;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
@@ -242,7 +241,7 @@ body {
   left: 0;
 }
 #app-category .container .title h1 {
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: #333333;
   font-weight: 200;
 }
@@ -272,7 +271,7 @@ body {
   color: #4A4A4A;
   font-size: 17px;
   font-weight: 400;
-  margin-bottom: 0;
+  margin: 0;
 }
 #app-category .container ul li .info .content p {
   color: #9B9B9B;
@@ -280,6 +279,35 @@ body {
   margin: 5px 0 0 0;
 }
 #app-category .container ul li .get p {
+  color: #fff;
+  background-color: #158CFA;
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+#app-category .container ul.graphics {
+  width: 66.6%;
+}
+#app-category .container ul.graphics li.graphics-items {
+  width: 49%;
+}
+
+#app-category {
+  padding-bottom: 20px;
+}
+#app-category .container ul.no-pay li.no-pay-items .info {
+  justify-content: unset;
+  margin-bottom: 10px;
+}
+#app-category .container ul.no-pay li.no-pay-items .info img {
+  width: 120px;
+  height: auto;
+}
+#app-category .container ul.no-pay li.no-pay-items .info .content p {
+  margin: 5px 0 10px 0;
+}
+#app-category .container ul.no-pay li.no-pay-items .info .content span.get {
   color: #fff;
   background-color: #158CFA;
   padding: 5px 25px;
@@ -356,56 +384,107 @@ body {
   font-size: 13px;
 }
 
-.row-slider {
+#row-slider {
   background-color: #F7F7F7;
 }
-.row-slider .container {
+#row-slider .container {
   position: relative;
 }
-.row-slider .container .title h1 {
+#row-slider .container .title h1 {
   font-size: 2.2rem;
   color: #333333;
   font-weight: 200;
 }
-.row-slider .container .title p a {
+#row-slider .container .title p a {
   font-size: 1.3rem;
   color: #308FFF;
 }
-.row-slider .container .pre-next img {
+#row-slider .container .pre-next img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 64px;
   height: auto;
 }
-.row-slider .container .pre-next .pre {
+#row-slider .container .pre-next .pre {
   right: 0;
 }
-.row-slider .container .pre-next .next {
+#row-slider .container .pre-next .next {
   left: 0;
 }
-.row-slider .container ul li {
+#row-slider .container ul li {
   width: 16%;
   padding: 10px;
   border-bottom: 0.75px solid #E0E0E0;
 }
-.row-slider .container ul li img {
+#row-slider .container ul li img {
   width: 100%;
   height: auto;
   border-radius: 40px;
   box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
 }
-.row-slider .container ul li h2 {
+#row-slider .container ul li h2 {
   min-height: 5.6rem;
   color: #4A4A4A;
   font-weight: 400;
   font-size: 1.8rem;
   margin: 5px 10px 0 0;
 }
-.row-slider .container ul li p {
+#row-slider .container ul li p {
   min-height: 4rem;
   color: #9B9B9B;
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0 10px 3px 0;
+}
+
+#footer .top-footer .social-network {
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 20px 0;
+}
+#footer .top-footer .social-network h3 {
+  font-size: 16px;
+  color: #4A4A4A;
+  font-weight: 500;
+  margin: 0 0 0 10px;
+}
+#footer .top-footer .social-network img {
+  width: 23px;
+  height: auto;
+}
+#footer .top-footer .info {
+  width: 65%;
+  padding: 20px 0 45px 0;
+}
+#footer .top-footer .info .customer-services h3, #footer .top-footer .info .contact-us h3 {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-weight: 500;
+}
+#footer .top-footer .info .customer-services p, #footer .top-footer .info .contact-us p {
+  color: #8E8E93;
+  font-size: 15px;
+  font-weight: 200;
+}
+#footer .top-footer .info .online-shopping-certificate h3 {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-weight: 500;
+}
+#footer .top-footer .info .online-shopping-certificate img {
+  width: 100px;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid #ECECEF;
+  padding: 10px 0;
+  background-color: #F9F9F9;
+}
+#footer .bottom-footer {
+  background-color: #308FFF;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 200;
 }/*# sourceMappingURL=style.css.map */

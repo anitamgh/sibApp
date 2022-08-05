@@ -21,7 +21,7 @@
         }
         .title{
             h1{
-                font-size:2rem;
+                font-size:2.1rem;
                 color:$gray33;
                 font-weight: 200;
             }
@@ -52,7 +52,7 @@
                             color:$gray4a;
                             font-size:17px;
                             font-weight:400;
-                            margin-bottom:0;
+                            margin:0;
                             // min-height:55px;
                         }
                         p{
@@ -74,4 +74,43 @@
             }
         }
 }
+}
+#app-category{
+    .container{
+        ul.graphics{
+            width:66.6%;
+            li.graphics-items{
+                width:49%;
+            }
+        }
+    }
+}
+#app-category{
+    padding-bottom:20px;
+    .container{
+        ul.no-pay{
+            li.no-pay-items{
+                .info{
+                    justify-content:unset;
+                    margin-bottom: 10px;
+                    img{
+                        width:120px;
+                        height:auto;
+                    }
+                    .content{
+                        p{
+                            margin: 5px 0 10px 0;
+                        }
+                        span.get{
+                            color:$whiteff;
+                            background-color: $blue15;
+                            padding:5px 25px;
+                            border-radius: 15px;
+                            font-size:13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

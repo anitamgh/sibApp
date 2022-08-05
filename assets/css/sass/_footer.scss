@@ -1,0 +1,58 @@
+#footer{
+    .top-footer{
+        .social-network{
+            justify-content: flex-start;
+            gap:15px;
+            padding:20px 0;
+            h3{
+                font-size:16px;
+                color:$gray4a;
+                font-weight:500;
+                margin:0 0 0 10px;
+            }
+            img{
+                width:23px;
+                height:auto;
+            }
+        }
+        .info{
+            width:65%;
+            padding:20px 0 45px 0;
+            .customer-services , .contact-us{
+                h3{
+                    color:$gray4a;
+                    font-size:16px;
+                    font-weight:500;
+                }
+                p{
+                    color:$gray8e;
+                    font-size:15px;
+                    font-weight:200;
+                }
+            }
+            .online-shopping-certificate{
+                h3{
+                    color:$gray4a;
+                    font-size:16px;
+                    font-weight:500;
+                }
+                img{
+                    width:100px;
+                    height:auto;
+                    border-radius:20px;
+                    border:2px solid $whiteec;
+                    padding:10px 0;
+                    background-color: $whitef9;
+                }
+            }
+        }
+    }
+    .bottom-footer{
+        background-color: $blue30;
+        color:$whiteff;
+        padding:20px 0;
+        font-size:15px;
+        text-align:center;
+        font-weight:200;
+    }
+}
