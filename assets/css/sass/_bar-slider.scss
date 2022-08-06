@@ -7,6 +7,9 @@
             background-color: $whitee8;
             margin:20px 30px;
             border-radius:10px;
+            -moz-border-radius:10px;
+            -ms-border-radius:10px;
+            -webkit-border-radius:10px;
             font-size:1.6rem;
             padding:10px 0;
             color:$gray4a;
@@ -23,6 +26,9 @@
                 column-gap:20px;
                 position:relative;
                 overflow-x: scroll;
+                -moz-overflow-x: scroll;
+                -webkit-overflow-x: scroll;
+                -ms-overflow-x: scroll;
                 .pre-next{
                     img{
                         position:absolute;
@@ -41,11 +47,17 @@
                 .col{
                     width:50%;
                     border-bottom:solid 1px $whitee0;
+                    -moz-border-bottom:solid 1px $whitee0;
+                    -webkit-border-bottom:solid 1px $whitee0;
+                    -ms-border-bottom:solid 1px $whitee0;
                     margin-bottom:20px;
                     img{
                         width:100%;
                         height:auto;
                         border-radius:15px;
+                        -moz-border-radius:15px;
+                        -webkit-border-radius:15px;
+                        -ms-border-radius:15px;
                     }
                     h1{
                         color:$gray4a;

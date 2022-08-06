@@ -1,0 +1,140 @@
+@media screen and (max-width:1350px){
+    html{
+        font-size:9px;
+    }
+    #full-slider{
+        ul{
+            flex-direction: column;
+            gap: 40px;
+        }
+    }
+}
+@media screen and (max-width:1200px){
+    #app-category{
+        .container{
+            ul{
+                li{
+                    width:50%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1060px){
+    #header{
+        .flexbox{
+            .logo-and-menu{
+                .logo-responsive{
+                    display:block;
+                }
+                .menu{
+                    display:none;
+                }
+            }
+        }
+    }
+    #app-category{
+        .container{
+            ul.graphics{
+                width:100%;
+            }
+        }
+    }
+    #full-slider{
+        ul{
+            li{
+                width:100%;
+            }
+        }
+    }
+    #row-slider{
+        .container{
+            ul{
+                flex-wrap:wrap;
+                justify-content: flex-start;
+                li{
+                    width:25%;
+                }
+            }
+        }
+    }
+    #footer{
+        .top-footer{
+            .info{
+                width:100%;
+                flex-wrap:wrap;
+            }
+        }
+    }
+}
+@media screen and (max-width:830px){
+    #bar-slider{
+        .slider{
+            .container{
+                .flexbox{
+                    flex-direction: column;
+                    .col{
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:800px){
+    #app-category{
+        .container{
+            ul{
+                li{
+                    width:100%;
+                }
+            }
+        }
+    }
+    #app-category .container ul.graphics li.graphics-items {
+        width:100%;
+    }
+}
+// @media screen and (max-width:770px){
+// }
+@media screen and (max-width:700px){
+    #row-slider{
+        .container{
+            ul{
+                li{
+                    width:33.33%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:640px){
+    html{
+        font-size:8px;
+    }
+}
+@media screen and (max-width:570px){
+    html{
+        font-size:7px;
+    }
+    #row-slider{
+        .container{
+            ul{
+                li{
+                    width:50%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:540px){
+    #header{
+        .flexbox{
+            .search-and-install{
+                .install-button{
+                    padding:3px 25px 5px 25px;
+                }
+            }
+        }
+    }
+}

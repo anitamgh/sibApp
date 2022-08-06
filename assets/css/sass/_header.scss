@@ -1,5 +1,8 @@
 #header{
     border-bottom:solid 1px $whitee0;
+    -moz-border-bottom:solid 1px $whitee0;
+    -webkit-border-bottom:solid 1px $whitee0;
+    -ms-border-bottom:solid 1px $whitee0;
     padding:10px 0 15px 0;
     position:fixed;
     background-color:$whiteff;
@@ -13,6 +16,9 @@
             .logo{
                 width:115px;
                 height:auto;
+            }
+            .logo-responsive{
+                display:none;
             }
             .menu{
                 column-gap:10px;
@@ -48,7 +54,13 @@
                 padding:5px 30px 7px 30px;
                 color:$whiteff;
                 border-radius:20px;
+                -moz-border-radius:20px;
+                -webkit-border-radius:20px;
+                -ms-border-radius:20px;
                 box-shadow: 0 4px 8px 0 rgba(48, 143, 255, 50%);
+                -moz-box-shadow: 0 4px 8px 0 rgba(48, 143, 255, 50%);
+                -webkit-box-shadow: 0 4px 8px 0 rgba(48, 143, 255, 50%);
+                -ms-box-shadow: 0 4px 8px 0 rgba(48, 143, 255, 50%);
 
             }
         }

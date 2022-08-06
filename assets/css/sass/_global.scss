@@ -15,5 +15,11 @@ body{
 .flexbox{
     display: flex;
     justify-content:space-between;
+    -moz-justify-content:space-between;
+    -webkit-justify-content:space-between;
+    -ms-justify-content:space-between;
     align-items:center;
+    -moz-align-items:center;
+    -webkit-align-items:center;
+    -ms-align-items:center;
 }
