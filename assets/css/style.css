@@ -449,12 +449,12 @@ body {
 #full-slider ul li .image .content .get p {
   color: #fff;
   background-color: #158CFA;
-  padding: 5px 25px;
+  padding: 3px 17px;
   border-radius: 15px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   -ms-border-radius: 15px;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 #row-slider {
@@ -464,12 +464,12 @@ body {
   position: relative;
 }
 #row-slider .container .title h1 {
-  font-size: 2.2rem;
+  font-size: 22px;
   color: #333333;
   font-weight: 200;
 }
 #row-slider .container .title p a {
-  font-size: 1.3rem;
+  font-size: 13px;
   color: #308FFF;
 }
 #row-slider .container .pre-next img {
@@ -486,24 +486,35 @@ body {
   left: 0;
 }
 #row-slider .container ul li {
-  width: 16%;
+  width: 16.66%;
   padding: 10px;
-  border-bottom: 0.75px solid #E0E0E0;
 }
 #row-slider .container ul li img {
   width: 100%;
   height: auto;
   border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -ms-border-radius: 40px;
   box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
 }
-#row-slider .container ul li h2 {
+#row-slider .container ul li .holder {
+  border-bottom: 0.75px solid #E0E0E0;
+  -moz-border-bottom: 0.75px solid #E0E0E0;
+  -webkit-border-bottom: 0.75px solid #E0E0E0;
+  -ms-border-bottom: 0.75px solid #E0E0E0;
+}
+#row-slider .container ul li .holder h2 {
   min-height: 5.6rem;
   color: #4A4A4A;
   font-weight: 400;
   font-size: 1.8rem;
   margin: 5px 10px 0 0;
 }
-#row-slider .container ul li p {
+#row-slider .container ul li .holder p {
   min-height: 4rem;
   color: #9B9B9B;
   font-size: 1.2rem;
@@ -572,15 +583,21 @@ body {
   }
 }
 @media screen and (max-width: 1200px) {
+  .pre-next {
+    visibility: hidden;
+  }
   #app-category .container ul li {
     width: 50%;
   }
 }
 @media screen and (max-width: 1060px) {
-  #header .flexbox .logo-and-menu .logo-responsive {
+  #header .container-full {
+    padding: 0 10px;
+  }
+  #header .container-full .flexbox .logo-and-menu .logo-responsive {
     display: block;
   }
-  #header .flexbox .logo-and-menu .menu {
+  #header .container-full .flexbox .logo-and-menu .menu {
     display: none;
   }
   #app-category .container ul.graphics {

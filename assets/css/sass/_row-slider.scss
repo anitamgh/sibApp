@@ -4,13 +4,13 @@
         position: relative;
         .title{
             h1{
-                font-size:2.2rem;
+                font-size:22px;
                 color:$gray33;
                 font-weight: 200;
             }
             p{
                 a{
-                    font-size:1.3rem;
+                    font-size:13px;
                     color:$blue30;
                 }
             }
@@ -32,28 +32,39 @@
         }
         ul{
             li{
-                width:16%;
+                width:16.66%;
                 padding:10px;
-                border-bottom:0.75px solid $whitee0;
                 img{
                     width:100%;
                     height:auto;
                     border-radius:40px;
+                    -moz-border-radius:40px;
+                    -webkit-border-radius:40px;
+                    -ms-border-radius:40px;
                     box-shadow:0 0px 5px 0 rgba(0,0,0,10%);
+                    -moz-box-shadow:0 0px 5px 0 rgba(0,0,0,10%);
+                    -webkit-box-shadow:0 0px 5px 0 rgba(0,0,0,10%);
+                    -ms-box-shadow:0 0px 5px 0 rgba(0,0,0,10%);
                 }
-                h2{
-                    min-height:5.6rem;
-                    color:$gray4a;
-                    font-weight:400;
-                    font-size:1.8rem;
-                    margin:5px 10px 0 0;
-                }
-                p{
-                    min-height:4rem;
-                    color:$gray9b;
-                    font-size:1.2rem;
-                    font-weight:400;
-                    margin:0 10px 3px 0;
+                .holder{
+                    border-bottom:0.75px solid $whitee0;
+                    -moz-border-bottom:0.75px solid $whitee0;
+                    -webkit-border-bottom:0.75px solid $whitee0;
+                    -ms-border-bottom:0.75px solid $whitee0;
+                    h2{
+                        min-height:5.6rem;
+                        color:$gray4a;
+                        font-weight:400;
+                        font-size:1.8rem;
+                        margin:5px 10px 0 0;
+                    }
+                    p{
+                        min-height:4rem;
+                        color:$gray9b;
+                        font-size:1.2rem;
+                        font-weight:400;
+                        margin:0 10px 3px 0;
+                    }
                 }
             }
         }

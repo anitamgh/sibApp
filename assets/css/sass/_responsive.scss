@@ -10,6 +10,9 @@
     }
 }
 @media screen and (max-width:1200px){
+    .pre-next{
+        visibility: hidden;
+    }
     #app-category{
         .container{
             ul{
@@ -22,13 +25,16 @@
 }
 @media screen and (max-width:1060px){
     #header{
-        .flexbox{
-            .logo-and-menu{
-                .logo-responsive{
-                    display:block;
-                }
-                .menu{
-                    display:none;
+        .container-full{
+            padding:0 10px;
+            .flexbox{
+                .logo-and-menu{
+                    .logo-responsive{
+                        display:block;
+                    }
+                    .menu{
+                        display:none;
+                    }
                 }
             }
         }
