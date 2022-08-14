@@ -93,7 +93,7 @@
             }
         }
     }
-    .app-list:last-child{
+    .app-list:first-child{
                 display: none;
             }
     .rectangle{
@@ -123,12 +123,9 @@
     }
 }
 @media screen and (max-width:750px){
-    .app-list:nth-child(2){
+    .app-list:nth-child(1){
         display: none;
     }
-   
-}
-@media screen and (max-width:750px){
 .two-rectangle ul.app ul li img{
     width: 90%;
 }

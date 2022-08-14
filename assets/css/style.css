@@ -627,7 +627,7 @@ footer p {
   .two-rectangle ul.app li.second {
     display: none;
   }
-  .app-list:last-child {
+  .app-list:first-child {
     display: none;
   }
   .rectangle .two-rectangle ul.app li.list.second:nth-child(2) {
@@ -646,11 +646,9 @@ footer p {
   }
 }
 @media screen and (max-width: 750px) {
-  .app-list:nth-child(2) {
+  .app-list:nth-child(1) {
     display: none;
   }
-}
-@media screen and (max-width: 750px) {
   .two-rectangle ul.app ul li img {
     width: 90%;
   }
