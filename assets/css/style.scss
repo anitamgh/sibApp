@@ -11,11 +11,12 @@
     text-align: center;
     margin-top: 85px  ;
     background: $border;
-    border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -webkit-border-radius: 20px;
+    border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
   padding: 12px 0;
+  margin: 85px 210px 0 210px;
   
  a{
     font-weight:lighter;
@@ -23,7 +24,7 @@
     color:$p-border;
 
     span{
-      color:$button-background;
+      color:#1A73B1;
       font-weight: bold;
     }
   }
@@ -31,6 +32,7 @@
 
  .rectangle{
   position: relative;
+  margin-top: -30px;
     ul.app {
       display: flex;
       justify-content:space-between;
@@ -104,6 +106,7 @@
   z-index: 0;
   content: "";
   background: $button-background;
+  overflow-x: scroll;
 }
 .list.two-columen{
     justify-content: right ;

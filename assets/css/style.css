@@ -23,6 +23,7 @@ a {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  overflow-x: scroll;
 }
 
 .two-rectangle ul.app {
@@ -146,7 +147,7 @@ a {
   box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
 }
 .container .list .app-list ul li a .content {
-  margin-right: 20px;
+  margin-right: 5px;
   min-height: 120px;
 }
 .container .list .app-list ul li a .content h3 {
@@ -176,7 +177,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .square-list i {
   position: absolute;
@@ -302,6 +303,7 @@ a {
 .last {
   background-color: #fff;
   padding-right: 60px;
+  margin-top: 30px;
 }
 .last .social {
   display: flex;
@@ -313,22 +315,22 @@ a {
 }
 .last .social ul li h3 {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
-.last .social ul li a {
-  font-size: 1.3rem;
+.last .social ul li a i {
+  font-size: 1.6rem;
   color: rgb(188, 188, 203);
 }
 .last .contact {
   display: flex;
-  justify-content: space-between;
+  grid-gap: 200px;
   flex-wrap: wrap;
 }
 .last .contact ul {
   grid-gap: 20px;
 }
 .last .contact ul li {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   line-height: 40px;
 }
 .last .contact ul li h3 {
@@ -450,11 +452,12 @@ footer p {
   text-align: center;
   margin-top: 85px;
   background: #E8F2F9;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -webkit-border-radius: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
   padding: 12px 0;
+  margin: 85px 210px 0 210px;
 }
 #border a {
   font-weight: lighter;
@@ -462,12 +465,13 @@ footer p {
   color: #818181;
 }
 #border a span {
-  color: #158CFA;
+  color: #1A73B1;
   font-weight: bold;
 }
 
 .rectangle {
   position: relative;
+  margin-top: -30px;
 }
 .rectangle ul.app {
   display: flex;
@@ -534,6 +538,7 @@ footer p {
   z-index: 0;
   content: "";
   background: #158CFA;
+  overflow-x: scroll;
 }
 
 .list.two-columen {

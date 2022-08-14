@@ -4,6 +4,7 @@
 .container{
     max-width: 1100px;
     margin: 0 auto;
+    overflow-x: scroll;
 }
 .two-rectangle{
     ul.app {
@@ -134,7 +135,7 @@
                             box-shadow: 0 0px 5px 0 $shadow;
                         }
                         .content{
-                            margin-right: 20px;
+                            margin-right: 5px;
                             min-height: 120px;
                            h3{
                                  color: $font-color; 
@@ -170,7 +171,7 @@
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
     i{
         position: absolute;
@@ -299,6 +300,7 @@
 .last{
     background-color: $white;
     padding-right: 60px;
+    margin-top: 30px;
 
         .social{
             display: flex;
@@ -311,25 +313,27 @@
 
                     h3{
                         font-weight: bold;
-                        font-size: 1rem;
+                        font-size: 1.1rem;
                     }
                     a{
-                        font-size: 1.3rem;
+                        i{
+                        font-size: 1.6rem;
                         color:$icon;
+                        }
                     }
                 }
             }
         }
         .contact{
             display: flex;
-            justify-content: space-between;
+            grid-gap: 200px;
             flex-wrap: wrap;
 
             ul{
                 grid-gap: 20px;
 
                 li{
-                    font-size: 0.8rem;
+                    font-size: 0.95rem;
                     line-height: 40px;
 
                     h3{
