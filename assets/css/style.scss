@@ -9,7 +9,6 @@
 
 #border{
     text-align: center;
-    margin-top: 85px  ;
     background: $border;
     border-radius: 10px;
   -moz-border-radius: 10px;
@@ -30,7 +29,7 @@
   }
  }
 
- .rectangle{
+ #rectangle{
   position: relative;
   margin-top: -30px;
     ul.app {
@@ -97,7 +96,7 @@
     }
   }
  }
-.rectangle::after{
+#rectangle::after{
   position: absolute;
   bottom: 0;
   left: 0;

@@ -450,7 +450,6 @@ footer p {
 
 #border {
   text-align: center;
-  margin-top: 85px;
   background: #E8F2F9;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -469,11 +468,11 @@ footer p {
   font-weight: bold;
 }
 
-.rectangle {
+#rectangle {
   position: relative;
   margin-top: -30px;
 }
-.rectangle ul.app {
+#rectangle ul.app {
   display: flex;
   justify-content: space-between;
   grid-gap: 10px;
@@ -482,7 +481,7 @@ footer p {
   position: relative;
   z-index: 1;
 }
-.rectangle ul.app .pointer {
+#rectangle ul.app .pointer {
   position: absolute;
   top: 35%;
   left: 0;
@@ -491,36 +490,36 @@ footer p {
   border-start-start-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.rectangle ul.app .pointer i {
+#rectangle ul.app .pointer i {
   font-size: 30px;
 }
-.rectangle ul.app li.list ul {
+#rectangle ul.app li.list ul {
   background: #fff;
   border-radius: 15px;
   margin-bottom: 50px;
 }
-.rectangle ul.app li.list ul .content {
+#rectangle ul.app li.list ul .content {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 0 20px;
   margin: 5px 0 -5px 0;
 }
-.rectangle ul.app li.list ul .content p {
+#rectangle ul.app li.list ul .content p {
   margin-top: 8px;
   font-size: 0.7rem;
 }
-.rectangle ul.app li.list ul .download {
+#rectangle ul.app li.list ul .download {
   margin-bottom: 15px;
   background-color: #158CFA;
   font-size: 0.8rem;
   padding: 5px 15px;
   border-radius: 20px;
 }
-.rectangle ul.app li.list ul .download a {
+#rectangle ul.app li.list ul .download a {
   color: #fff;
 }
-.rectangle ul.app li.list ul li img {
+#rectangle ul.app li.list ul li img {
   width: 516px;
   height: 311px;
   border-top-right-radius: 15px;
@@ -529,7 +528,7 @@ footer p {
   border-bottom-right-radius: 0;
 }
 
-.rectangle::after {
+#rectangle::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -648,6 +647,10 @@ footer p {
   }
   .main-menu {
     display: none;
+  }
+  #border {
+    margin: 85px;
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 750px) {

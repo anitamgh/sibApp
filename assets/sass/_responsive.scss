@@ -121,6 +121,10 @@
     .main-menu{
         display: none;
     }
+    #border{
+        margin: 85px;
+        margin-bottom: 0;
+    }
 }
 @media screen and (max-width:750px){
     .app-list:nth-child(1){
